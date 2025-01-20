@@ -1,0 +1,49 @@
+.movie-container {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  select {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .movie-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 15px;
+  }
+  
+  .movie-card {
+    background: #f4f4f4;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+    background-color: #eaeaea;
+  }
+  
+  .movie-card h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .movie-card p {
+    margin: 5px 0;
+    color: #555;
+  }
+  

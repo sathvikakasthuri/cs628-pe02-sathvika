@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "movie-list": "file:movie-list",
+    "web-vitals": "^4.2.4"
+  }
+}
